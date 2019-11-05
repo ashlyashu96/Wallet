@@ -47,9 +47,10 @@ public class MainActivity extends AppCompatActivity {
                         || txtph.getText().toString().isEmpty() || txtcpwd.getText().toString().isEmpty() || txtcpwd.getText().toString().isEmpty()) {
                     Toast.makeText(MainActivity.this, "Fill all feilds", Toast.LENGTH_SHORT).show();
                 }
-                else if (txtcpwd.getText().toString().equals(txtcpwd.getText().toString()))
+                else if (!(txtcpwd.getText().toString()).equals(txtpswd.getText().toString()))
                 {
                     Toast.makeText(MainActivity.this, "Password Miss matched", Toast.LENGTH_SHORT).show();
+                    txtcpwd.setError("Re-Enter");
                 }
                 else {
                     Insert();
@@ -61,12 +62,12 @@ public class MainActivity extends AppCompatActivity {
     }
     public void Insert()
     {
-        StringRequest stringRequest = new StringRequest(Request.Method.POST,"https://full-bottomed-cushi.000webhostapp.com/",
+        StringRequest stringRequest = new StringRequest(Request.Method.POST,"https://full-bottomed-cushi.000webhostapp.com/Wallet_Reg.php",
                 new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {
 //If we are getting success from server
-
+                        Toast.makeText(MainActivity.this, response, Toast.LENGTH_SHORT).show();
 
                         try {
                             JSONArray jsonArray=new JSONArray(response);

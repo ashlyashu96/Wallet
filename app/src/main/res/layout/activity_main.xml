@@ -20,7 +20,7 @@
         app:layout_constraintHorizontal_bias="0.515"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.098" />
+        app:layout_constraintVertical_bias="0.05" />
 
     <EditText
         android:id="@+id/txt_name"
@@ -36,7 +36,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.212" />
+        app:layout_constraintVertical_bias="0.179" />
 
     <EditText
         android:id="@+id/txt_ph"
@@ -52,7 +52,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.529" />
+        app:layout_constraintVertical_bias="0.528" />
 
     <EditText
         android:id="@+id/txt_pwd"
@@ -68,7 +68,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.616" />
+        app:layout_constraintVertical_bias="0.647" />
 
     <Button
         android:id="@+id/button"
@@ -81,10 +81,10 @@
         android:text="Register"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.439"
+        app:layout_constraintHorizontal_bias="0.456"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.847" />
+        app:layout_constraintVertical_bias="0.919" />
 
     <EditText
         android:id="@+id/txt_uname"
@@ -101,7 +101,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.319" />
+        app:layout_constraintVertical_bias="0.295" />
 
     <EditText
         android:id="@+id/txt_dob"
@@ -118,7 +118,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.425" />
+        app:layout_constraintVertical_bias="0.414" />
 
     <EditText
         android:id="@+id/txt_cpwd"
@@ -135,6 +135,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.723" />
+        app:layout_constraintVertical_bias="0.78" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
